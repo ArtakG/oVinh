@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 version 2
 version 3
+=======
+>>>>>>> parent of 8cf86dd... Test is version 2
