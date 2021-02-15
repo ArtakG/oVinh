@@ -23,4 +23,4 @@ jobs:
       - name: generate APIM SAS token
         id: generate-apim-sas-token
         run: |
-         echo "${{  steps.date.outputs.apim_date }}"
+         echo """${{  steps.date.outputs.apim_date }}"""
