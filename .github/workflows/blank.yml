@@ -19,4 +19,4 @@ jobs:
         id: generate-apim-sas-token
         run: |
          echo "::set-env name=apim_date::$(date -d '+1 days' '+%Y-%m-%dT%H:%M:%S.188Z')"
-         echo ${{ env.apim_date }}"
+         echo "${{ env.apim_date }}"
