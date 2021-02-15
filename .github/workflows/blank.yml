@@ -18,7 +18,7 @@ jobs:
       - name: generate APIM SAS token
         id: date
         run: |
-         echo "::set-env name=apim_date::$(date -d '+1 days' '+%Y-%m-%dT%H:%M:%S.188Z')"
+         echo "::set-output name=apim_date::$(date -d '+1 days' '+%Y-%m-%dT%H:%M:%S.188Z')"
 
       - name: generate APIM SAS token
         id: generate-apim-sas-token
